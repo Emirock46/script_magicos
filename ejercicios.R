@@ -1,6 +1,6 @@
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
+#sacarowito
 BiocManager::install("ggmsa")
 #clase 30/9/24
 globinas<-readAAStringSet("01_Rawdata/DivergentGlobins.fasta")
